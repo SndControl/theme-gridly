@@ -12,7 +12,24 @@
  * ====================== */
 @FontAwesomePath  : "http://postach.io/static/themes/_assets/fontawesome/font"; // Overrride the default font-awesome path
 
-@bodyFontFamily   : 'Droid Sans', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@red1 : #fcd0dc;
+@red2 : #ee4e6f;
+@red3 : #de1f2c;
+@gray1 : #f7f7f7;
+@gray2 : #CFD8DC;
+@gray3 : #90A4AE;
+@blue1 : #517fa4;
+@blue2 : #404c73;
+@blue3 : #1d344e;
+@white1 : #fff;
+@black1 : #000; 
+
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Vollkorn:400italic');
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('http://fonts.googleapis.com/css?family=Exo+2');
+
+@headerFontFamily : 'Exo 2', Arial, sans-serif;
+@bodyFontFamily   : 'Roboto Slab', Georgia, serif;
 @bodyFontSize     : 16px;
 @bodyPadding      : 60px;
 
@@ -23,8 +40,6 @@
 
 @baseLineHeight   : 1.625;
 @headerLineHeight : 1.4;
-
-@import url('http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Vollkorn:400italic');
 
 /* ====================== */
 
@@ -62,18 +77,19 @@ body {
     font-family: @bodyFontFamily;
     line-height: @baseLineHeight; // unitless universal line-height for document - http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/
     color: @bodyColor;
-    background: url('../img/light/bg.jpg');
+    background-color: @gray1;
     &.dark {
-        background: url('../img/dark/bg.jpg');
+        background-color: @blue2;
     }
 }
 
 h1, h2, h3, h4, h5, h6 {
     .margin((@baseLineHeight / 2px), 0);
     color: #404c73;
+    font-family: @headerFontFamily;
     line-height: @baseLineHeight;
     &.title {
-        color: @grey-65;
+        color: #404c73;
         .border-bottom-width(1px);
         border-bottom: solid @grey-20;
     }
@@ -81,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: inherit;
     }
     small {
-        color: @grey-55;
+        color: #404c73;
         font-weight: normal;
         font-size: 70%;
     }
