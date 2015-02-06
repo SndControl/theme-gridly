@@ -1660,7 +1660,6 @@ a {
   -webkit-transform: translate3d(0, 0, 0);
   color: #de1f2c;
   text-decoration: none;
-  border-bottom: 1px dotted #CFD8DC;
 }
 a:hover,
 a:active,
@@ -2184,7 +2183,8 @@ hr.large {
   min-height: 400px;
 }
 .post-content a {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px dotted #CFD8DC;
 }
 .post-content .socialbar-container a {
   text-decoration: none;
