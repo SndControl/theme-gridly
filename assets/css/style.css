@@ -1620,6 +1620,12 @@ h1 {
   font-size: 36px;
   font-size: 2.25rem;
 }
+h1 a:hover,
+h1 a:active,
+h1 a:focus {
+  border-bottom: none;
+  text-decoration: none;
+}
 h2 {
   font-size: 24px;
   font-size: 1.5rem;
@@ -1852,7 +1858,7 @@ hr.large {
   -webkit-box-shadow: 0 -1px 0 rgba(133, 133, 133, 0.2);
   -moz-box-shadow: 0 -1px 0 rgba(133, 133, 133, 0.2);
   box-shadow: 0 -1px 0 rgba(133, 133, 133, 0.2);
-
+  color: #517fa4;
 }
 #nav:after {
   visibility: hidden;
@@ -1876,9 +1882,8 @@ hr.large {
 #nav ul li {
   float: left;
   font-size: 16px;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-family: 'Exo 2', Arial, sans-serif;
-  color: #517fa4;
 }
 #nav ul li a {
   display: block;
@@ -1887,6 +1892,7 @@ hr.large {
   margin-right: 10px;
   margin-right: 0.625rem;
   text-decoration: none;
+  color: #517fa4;
 }
 #nav ul li a:after {
   visibility: hidden;
@@ -1971,7 +1977,7 @@ hr.large {
 }
 .page,
 .post {
-  width: 740px;
+  width: 900px;
   width: 46.25rem;
   margin-top: 15px;
   margin-top: 0.9375rem;
@@ -1984,7 +1990,7 @@ hr.large {
   margin-bottom: 1.875rem;
 }
 .post-area .blog-post {
-  width: 23.5%;
+  width: 30%;
   margin-right: 10px;
   margin-right: 0.625rem;
   margin-bottom: 10px;
@@ -2018,7 +2024,7 @@ hr.large {
   color: #ffffff;
 }
 .post-area .blog-post .post-image .post-tags a {
-  color: #ffffff;
+  color: #ee4e6f;
 }
 .post-area .blog-post .post-image .post-tags a:hover {
   color: #517fa4;
@@ -2037,9 +2043,6 @@ hr.large {
   margin-bottom: 0.625rem;
   padding-bottom: 6px;
   padding-bottom: 0.375rem;
-  border-bottom: dotted #cccccc;
-  border-bottom-width: 1px;
-  border-bottom-width: 0.0625rem;
 }
 .post-area .blog-post .post-link {
   padding-top: 6px;
@@ -2051,6 +2054,9 @@ hr.large {
   border-top: dotted #cccccc;
   border-top-width: 1px;
   border-top-width: 0.0625rem;
+}
+.post-area .blog-post .post-link a:hover {
+  border-bottom: 1px solid #517fa4;
 }
 .post-content {
   display: block;
@@ -2139,7 +2145,7 @@ hr.large {
 .post-content h2,
 .post-content h3 {
   padding-top: 15px;
-  font-family: 'Roboto Slab', Georgia, serif;
+  font-family: 'Exo 2', Arial, sans-serif;
   font-weight: bold;
 }
 .post-content img {
