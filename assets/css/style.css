@@ -1,4 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Vollkorn:400italic');
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('http://fonts.googleapis.com/css?family=Exo+2');
 /**
  * Page styles
  */
@@ -1561,10 +1563,10 @@ body {
   padding-bottom: 1.25rem;
   font-weight: normal;
   font-size: 100%;
-  font-family: 'Droid Sans', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   line-height: 1.625;
-  color: #252525;
-  background: url('../img/light/bg.jpg');
+  color: #1d344e;
+  background-color: #f7f7f7;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 1.25 * 96dpi) {
   body {
@@ -1581,8 +1583,9 @@ h4,
 h5,
 h6 {
   margin: 0.8125px 0;
-  color: #252525;
+  color: #404c73;
   line-height: 1.625;
+  font-family: 'Exo 2', Arial, sans-serif;
 }
 h1.title,
 h2.title,
@@ -1590,10 +1593,10 @@ h3.title,
 h4.title,
 h5.title,
 h6.title {
-  color: #707070;
+  color: #404c73;
   border-bottom-width: 1px;
   border-bottom-width: 0.0625rem;
-  border-bottom: solid #d7d7d7;
+  border-bottom: solid #CFD8DC;
 }
 h1 a,
 h2 a,
@@ -1609,7 +1612,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-  color: #898989;
+  color: #404c73;
   font-weight: normal;
   font-size: 70%;
 }
@@ -1655,13 +1658,14 @@ a {
   -o-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
   -webkit-transform: translate3d(0, 0, 0);
-  color: #363636;
+  color: #de1f2c;
   text-decoration: none;
+  border-bottom: 1px dotted #CFD8DC;
 }
 a:hover,
 a:active,
 a:focus {
-  color: #505050;
+  border-bottom: 1px solid #fcd0dc;
   text-decoration: none;
 }
 ul,
@@ -1744,7 +1748,7 @@ small {
 }
 hr {
   border-width: 0;
-  border: solid #d7d7d7;
+  border: solid #CFD8DC;
   border-top-width: 1px;
   border-top-width: 0.0625rem;
   margin: 10px 0;
@@ -1934,12 +1938,12 @@ hr.large {
 .copyright p {
   padding-top: 15px;
   padding-top: 0.9375rem;
-  color: #4f5356;
+  color: #90A4AE;
   font-size: 12px;
   font-size: 0.75rem;
 }
 .copyright a {
-  color: #898989;
+  color: #90A4AE;
   text-decoration: none;
 }
 .copyright a:hover {
