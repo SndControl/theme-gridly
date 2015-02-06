@@ -1977,7 +1977,7 @@ hr.large {
 }
 .page,
 .post {
-  width: 900px;
+  width: 740px;
   width: 46.25rem;
   margin-top: 15px;
   margin-top: 0.9375rem;
@@ -2022,7 +2022,6 @@ hr.large {
   padding-right: 40px;
   padding-right: 2.5rem;
   color: #ffffff;
-  overflow: hidden;
 }
 .post-area .blog-post .post-image .post-tags a {
   color: #de1f2c;
@@ -2059,13 +2058,16 @@ hr.large {
   border-top-width: 1px;
   border-top-width: 0.0625rem;
 }
-.post-area .blog-post .post-link a:hover {
+.post-link a {
+  border-bottom: 1px dotted #CFD8DC;
+}
+.post-link a:hover {
   border-bottom: 1px solid #517fa4;
 }
 .post-content {
   display: block;
   /* found in _assets/less/elements.less */
-  width: 80%;
+  width: auto;
   padding: 20px;
   overflow: hidden;
 }
