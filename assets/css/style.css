@@ -2204,7 +2204,7 @@ hr.large {
   text-decoration: none;
   border-bottom: 1px dotted #CFD8DC;
 }
-.post-content a {
+.post-content a:hover {
   text-decoration: none;
   border-bottom: 1px solid #517fa4;
 }
