@@ -1852,6 +1852,7 @@ hr.large {
   -webkit-box-shadow: 0 -1px 0 rgba(133, 133, 133, 0.2);
   -moz-box-shadow: 0 -1px 0 rgba(133, 133, 133, 0.2);
   box-shadow: 0 -1px 0 rgba(133, 133, 133, 0.2);
+
 }
 #nav:after {
   visibility: hidden;
@@ -1874,8 +1875,10 @@ hr.large {
 }
 #nav ul li {
   float: left;
-  font-size: 12px;
+  font-size: 16px;
   font-size: 0.75rem;
+  font-family: 'Exo 2', Arial, sans-serif;
+  color: #517fa4;
 }
 #nav ul li a {
   display: block;
@@ -1900,7 +1903,7 @@ hr.large {
 }
 #nav ul li a:hover,
 #nav ul li a.active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer {
   width: 100%;
@@ -2486,6 +2489,7 @@ hr.large {
   #nav ul li {
     font-size: 14px;
     font-size: 0.875rem;
+    text-decoration: none;
   }
   .footer p {
     float: none;
