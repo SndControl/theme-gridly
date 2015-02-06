@@ -1947,7 +1947,7 @@ hr.large {
 }
 .copyright a:hover {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 /**
  * General Page styles
@@ -2018,12 +2018,12 @@ hr.large {
   color: #ffffff;
 }
 .post-area .blog-post .post-image .post-tags a:hover {
-  color: #555555;
+  color: #517fa4;
 }
 .post-area .blog-post .post-date,
 .post-area .blog-post .post-tags,
 .post-area .blog-post .post-link {
-  color: #8e8e8e;
+  color: #517fa4;
   font-size: 10px;
   font-size: 0.625rem;
   padding-bottom: 0;
@@ -2131,10 +2131,13 @@ hr.large {
 }
 .post-content h1 {
   padding-bottom: 15px;
+  font-family: 'Exo 2', Arial, sans-serif;
 }
 .post-content h2,
 .post-content h3 {
   padding-top: 15px;
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-weight: bold;
 }
 .post-content img {
   max-width: 100%;
@@ -2191,7 +2194,7 @@ hr.large {
 }
 .post-content .post-date {
   padding-bottom: 10px;
-  color: #999;
+  color: #517fa4;
 }
 .post-footer {
   padding: 0 20px 20px 20px;
