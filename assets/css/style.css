@@ -1951,11 +1951,12 @@ hr.large {
   font-size: 0.75rem;
 }
 .copyright a {
-  color: #90A4AE;
+  color: #404c73;
   text-decoration: none;
 }
 .copyright a:hover {
-  color: #000000;
+  color: #de1f2c;
+  border-bottom: 1px solid #517fa4;
   text-decoration: none;
 }
 /**
