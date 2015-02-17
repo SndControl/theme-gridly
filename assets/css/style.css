@@ -1791,10 +1791,10 @@ hr.large {
 }
 .avatar a {
   display: inline-block;
-  height: 96px;
-  height: 6rem;
-  width: 96px;
-  width: 6rem;
+  height: 128px;
+  height: 6.25rem;
+  width: 128px;
+  width: 6.25rem;
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
@@ -1849,8 +1849,7 @@ hr.large {
 }
 .header .logo {
   float: left;
-  margin: 36px;
-  margin: 2rem;
+  margin: 3rem 0 0 1rem;
   font-size: 90px;
   font-size: 5rem;
 }
