@@ -1849,15 +1849,15 @@ hr.large {
 }
 .header .logo {
   float: left;
-  margin-bottom: 10px;
-  margin-bottom: 0.625rem;
-  vertical-align: baseline;
-  font-size: 54px;
-  font-size: 3rem;
+  margin: 16px;
+  margin: 1rem;
+  font-size: 72px;
+  font-size: 4rem;
 }
 .header .description {
   float: left;
   margin: 1.4rem;
+  padding: 1rem;
   font-size: 18px;
   font-size: 1.2rem;
   font-family: 'Exo 2', Arial, sans-serif;
@@ -2330,7 +2330,7 @@ hr.large {
   width: 2.75rem;
   padding: 2px;
   padding: 0.125rem;
-  color: #252525;
+  color: #517fa4;
 }
 .social-icons a i {
   font-size: 22px;

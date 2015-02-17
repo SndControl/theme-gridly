@@ -52,25 +52,6 @@
         <div class="logo">
             <h1><a href="/" rel="home">{{ site.name }}</a></h1>
         </div>
-        <div class="nav-logo">
-          <nav id="nav">
-            <ul>
-              <li><a href="/">Recent</a></li>
-              <li><a href="http://blog.sndcontrol.com/tag/music">Pleasure+Work</a></li>
-              <li><a href="http://blog.sndcontrol.com/tag/psychology">Spirit+Mind</a></li>
-              <li><a href="http://blog.sndcontrol.com/tag/technology">Taste+Rules</a></li>
-              <li><a href="https://sndcontrol.com/like-feed">Music</a></li>
-              {% if pages %}
-              {% for page in pages %}
-              <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
-              {% endfor %}
-              {% endif %}
-            </ul>
-          </nav>
-          <div class="description">
-            <p>Snd Health covers the roles music and sounds play in our work, minds, and lives. Importantly, we provide answers on how you can use music to live healthier, fuller, and more productive lives, which are lessons we personally use to build <a href="https://sndcontrol.com/pricing">SndControl</a> for you.</p>
-          </div>
-        </div>
         <div class="social-icons">
           <ul>
             {% if site.twitter %}
@@ -112,6 +93,25 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="nav-logo">
+          <nav id="nav">
+            <ul>
+              <li><a href="/">Recent</a></li>
+              <li><a href="http://blog.sndcontrol.com/tag/music">Pleasure+Work</a></li>
+              <li><a href="http://blog.sndcontrol.com/tag/psychology">Spirit+Mind</a></li>
+              <li><a href="http://blog.sndcontrol.com/tag/technology">Taste+Rules</a></li>
+              <li><a href="https://sndcontrol.com/like-feed">Music</a></li>
+              {% if pages %}
+              {% for page in pages %}
+              <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
+              {% endfor %}
+              {% endif %}
+            </ul>
+          </nav>
+          <div class="description">
+            <p>Snd Health covers the roles music and sounds play in our work, minds, and lives. Importantly, we provide answers on how you can use music to live healthier, fuller, and more productive lives, which are lessons we personally use to build <a href="https://sndcontrol.com/pricing">SndControl</a> for you.</p>
+          </div>
         </div>
       </header>
 
