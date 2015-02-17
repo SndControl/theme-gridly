@@ -1852,7 +1852,7 @@ hr.large {
   text-align: center;
   margin: 3rem 0 0 3rem;
   font-size: 90px;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .header .description {
   float: left;
@@ -2527,6 +2527,7 @@ hr.large {
   .header .logo h1 {
     float: left;
     padding: 5%;
+    margin-left: 5%;
   }
   .header .social-icons {
     float: right;
