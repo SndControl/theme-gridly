@@ -2521,7 +2521,8 @@ hr.large {
   }
   .header .logo {
     width: 100%;
-    text-align:center;
+    display:block;
+    margin-left: 10%;
   }
   .header .social-icons {
     float: right;
