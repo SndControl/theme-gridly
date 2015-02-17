@@ -1851,6 +1851,9 @@ hr.large {
   float: left;
   margin-bottom: 10px;
   margin-bottom: 0.625rem;
+  vertical-align: baseline;
+  font-size: 54px;
+  font-size: 3rem;
 }
 .header .description {
   float: left;
@@ -1859,6 +1862,11 @@ hr.large {
   font-size: 1.2rem;
   font-family: 'Exo 2', Arial, sans-serif;
   width: 70%;
+  background-color: #404c73;
+  color: #f7f7f7;
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
 }
 #nav {
   border-top: solid rgba(255, 255, 255, 0.45);
