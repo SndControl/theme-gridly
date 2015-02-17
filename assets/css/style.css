@@ -1849,7 +1849,8 @@ hr.large {
 }
 .header .logo {
   float: left;
-  margin: 3rem 0 0 1rem;
+  text-align: center;
+  margin: 3rem 0 0 3rem;
   font-size: 90px;
   font-size: 5rem;
 }
@@ -2305,8 +2306,8 @@ hr.large {
 }
 .social-icons {
   float: right;
-  margin-top: 14px;
-  margin-top: 0.875rem;
+  margin: 14px;
+  margin: 0.875rem;
   display: block;
 }
 .social-icons ul {
@@ -2475,7 +2476,7 @@ hr.large {
     margin-left: 0;
   }
   .header .social-icons {
-    float: left;
+    float: right;
   }
   .post-area .blog-post {
     width: 47%;
@@ -2518,9 +2519,10 @@ hr.large {
     width: 100%;
   }
   .header .social-icons {
-    float: none;
+    float: right;
   }
   #nav ul li {
+    display: block;
     font-size: 14px;
     font-size: 0.875rem;
     text-decoration: none;
