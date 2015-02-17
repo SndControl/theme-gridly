@@ -1855,13 +1855,13 @@ hr.large {
 }
 .header .description {
   float: left;
-  margin: 1.4rem;
-  padding: 1.4rem;
+  margin: 1em;
+  padding: 1.4em;
   font-size: 18px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-family: 'Exo 2', Arial, sans-serif;
-  width: 70%;
-  min-width: 600px;
+  width: 80%;
+  min-width: 300px;
   background-color: #404c73;
   color: #f7f7f7;
   -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
@@ -2305,7 +2305,6 @@ hr.large {
 }
 .social-icons {
   float: right;
-  vertical-align: bottom;
   margin-top: 14px;
   margin-top: 0.875rem;
   display: block;

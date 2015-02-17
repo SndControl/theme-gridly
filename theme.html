@@ -46,12 +46,6 @@
     {% else %}
     <div class="wrap">
       <header class="header">
-        <div class="avatar">
-          <a href="/"><img src="{{ site.avatar }}" class="img-circle" alt="{{ site.author }}" /></a>
-        </div>
-        <div class="logo">
-            <h1><a href="/" rel="home">{{ site.name }}</a></h1>
-        </div>
         <div class="social-icons">
           <ul>
             {% if site.twitter %}
@@ -93,6 +87,12 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="avatar">
+          <a href="/"><img src="{{ site.avatar }}" class="img-circle" alt="{{ site.author }}" /></a>
+        </div>
+        <div class="logo">
+            <h1><a href="/" rel="home">{{ site.name }}</a></h1>
         </div>
         <div class="nav-logo">
           <nav id="nav">
