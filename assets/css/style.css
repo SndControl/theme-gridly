@@ -2524,6 +2524,10 @@ hr.large {
     display:block;
     margin-left: 10%;
   }
+  .header .logo h1 {
+    float: left;
+    padding: 5%;
+  }
   .header .social-icons {
     float: right;
   }
