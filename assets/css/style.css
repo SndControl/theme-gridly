@@ -1927,7 +1927,10 @@ hr.large {
 }
 #nav ul li a:hover,
 #nav ul li a.active {
+  color: #404c73;
+  border-bottom: 1px solid #de1f2c;
   text-decoration: none;
+  transition: border-bottom .5s;
 }
 .footer {
   width: 100%;
@@ -2549,6 +2552,12 @@ hr.large {
     font-size: 0.875rem;
     text-decoration: none;
     margin:none;
+  }
+  #nav ul li a {
+    margin-right: .5em;
+  }
+  #nav ul li a:hover {
+    border-bottom: 1px solid ;
   }
   .footer p {
     float: none;
