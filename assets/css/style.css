@@ -2523,7 +2523,7 @@ hr.large {
   .header .logo {
     width: 100%;
     display:block;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 5%;
   }
   .header .logo h1 {
@@ -2548,7 +2548,7 @@ hr.large {
     font-size: 14px;
     font-size: 0.875rem;
     text-decoration: none;
-    margin-right: .625em;
+    margin:none;
   }
   .footer p {
     float: none;
