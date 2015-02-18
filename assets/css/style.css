@@ -1856,12 +1856,11 @@ hr.large {
 }
 .header .description {
   float: left;
-  margin: 1em;
   padding: 1.4em;
   font-size: 18px;
   font-size: 1.2em;
   font-family: 'Exo 2', Arial, sans-serif;
-  width: 80%;
+  width: 90%;
   min-width: 300px;
   background-color: #404c73;
   color: #f7f7f7;
@@ -1899,16 +1898,16 @@ hr.large {
 }
 #nav ul li {
   float: left;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 18px;
+  font-size: 1.2rem;
   font-family: 'Exo 2', Arial, sans-serif;
 }
 #nav ul li a {
   display: block;
-  margin-top: 16px;
-  margin-top: 1rem;
-  margin-right: 10px;
-  margin-right: 0.625rem;
+  margin-top: 18px;
+  margin-top: 1.2rem;
+  margin-right: 18px;
+  margin-right: 1.2rem;
   text-decoration: none;
   color: #517fa4;
 }
@@ -1916,7 +1915,7 @@ hr.large {
   visibility: hidden;
   display: block;
   font-size: 0;
-  content: " ";
+  content: " | ";
   clear: both;
   height: 0;
 }
