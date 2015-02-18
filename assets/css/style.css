@@ -1930,7 +1930,7 @@ hr.large {
   color: #404c73;
   border-bottom: 1px solid #de1f2c;
   text-decoration: none;
-  transition: border-bottom .5s;
+  transition: border-bottom .5s ease-in;
 }
 .footer {
   width: 100%;
@@ -2557,7 +2557,10 @@ hr.large {
     margin-right: .5em;
   }
   #nav ul li a:hover {
-    border-bottom: 1px solid ;
+    color: #404c73;
+    border-bottom: 1px solid #de1f2c;
+    text-decoration: none;
+    transition: border-bottom .5s ease-in;
   }
   .footer p {
     float: none;
