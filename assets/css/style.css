@@ -1856,6 +1856,7 @@ hr.large {
 }
 .header .description {
   float: left;
+  margin-top: 1em;
   padding: 1.4em;
   font-size: 18px;
   font-size: 1.2em;
@@ -1915,7 +1916,7 @@ hr.large {
   visibility: hidden;
   display: block;
   font-size: 0;
-  content: " | ";
+  content: " ";
   clear: both;
   height: 0;
 }
