@@ -2523,13 +2523,13 @@ hr.large {
   .header .logo {
     width: 100%;
     display:block;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 5%;
   }
   .header .logo h1 {
     float: left;
     padding: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   .header .social-icons {
     float: right;
@@ -2548,6 +2548,7 @@ hr.large {
     font-size: 14px;
     font-size: 0.875rem;
     text-decoration: none;
+    margin-right: .625em;
   }
   .footer p {
     float: none;
