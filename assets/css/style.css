@@ -1858,8 +1858,13 @@ hr.large {
   float: left;
   text-align: center;
   margin: 3rem 0 0 3rem;
+
+}
+.header .logo h1 a {
   font-size: 90px;
   font-size: 6rem;
+  color: #404c73;
+  border-bottom: none;
 }
 .header .description {
   float: left;
