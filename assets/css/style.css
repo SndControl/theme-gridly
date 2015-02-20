@@ -1923,6 +1923,7 @@ hr.large {
   margin-right: 1.2rem;
   text-decoration: none;
   color: #517fa4;
+  border-bottom: 1px solid #f7f7f7;
 }
 #nav ul li a:after {
   visibility: hidden;
@@ -1939,10 +1940,9 @@ hr.large {
 }
 #nav ul li a:hover,
 #nav ul li a.active {
-  color: #404c73;
   border-bottom: 1px solid #de1f2c;
   text-decoration: none;
-  transition: border-bottom .5s ease-in;
+  transition: border-bottom .3s ease-in;
 }
 .footer {
   width: 100%;
@@ -2518,7 +2518,7 @@ hr.large {
   .header .avatar {
     margin: 0;
     display: block;
-    margin-left: 20%;
+    margin-left: 22.5%;
     margin-bottom: 5%;
   }
   .header .avatar:after {
@@ -2540,7 +2540,7 @@ hr.large {
   .header .logo {
     width: 100%;
     display:block;
-    margin-left: 12%;
+    margin-left: 5%;
     margin-top: 5%;
   }
   .header .logo h1 {
@@ -2569,12 +2569,13 @@ hr.large {
   }
   #nav ul li a {
     margin-right: .5em;
+    border-bottom: 1px solid #f7f7f7;
   }
   #nav ul li a:hover {
     color: #404c73;
     border-bottom: 1px solid #de1f2c;
     text-decoration: none;
-    transition: border-bottom .5s ease-in;
+    transition: border-bottom .3s ease-in;
   }
   .footer p {
     float: none;
