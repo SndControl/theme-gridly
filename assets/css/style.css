@@ -1584,7 +1584,7 @@ h5,
 h6 {
   margin: 0.8125px 0;
   color: #404c73;
-  line-height: 1.625;
+  line-height: 1em;
   font-family: 'Exo 2', Arial, sans-serif;
 }
 h1.title,
@@ -1602,9 +1602,10 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #404c73;
+  color: #de1f2c;
   font-weight: inherit;
   text-decoration: none;
+  border-bottom: 1px dotted #CFD8DC;
 }
 h1 small,
 h2 small,
@@ -1625,21 +1626,27 @@ h1 a:active,
 h1 a:focus {
   border-bottom: none;
   text-decoration: none;
+  border-bottom: 1px solid #517fa4;
+  -webkit-transition: border-bottom 0.3s ease-in;
+  -moz-transition:  border-bottom 0.3s ease-in;
+  -o-transition:  border-bottom 0.3s ease-in;
+  transition:  border-bottom 0.3s ease-in;
+}
 }
 h2 {
   font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 h3 {
-  font-size: 21px;
-  font-size: 1.3125rem;
+  font-size: 20px;
+  font-size: 1.2rem;
 }
 h4 {
   font-size: 18px;
   font-size: 1.125rem;
 }
 h5 {
-  font-size: 16px;
+  font-size: 18px;
   font-size: 1rem;
 }
 h6 {
@@ -1659,10 +1666,10 @@ img {
   height: auto;
 }
 a {
-  -webkit-transition: 0.1s ease-in;
-  -moz-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
   -webkit-transform: translate3d(0, 0, 0);
   color: #de1f2c;
   text-decoration: none;
@@ -2504,7 +2511,7 @@ hr.large {
   .header .avatar {
     margin: 0;
     display: block;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 5%;
   }
   .header .avatar:after {
