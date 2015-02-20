@@ -2545,7 +2545,7 @@ hr.large {
   }
   .header .logo h1 {
     float: left;
-    padding: 5%;
+    padding: 2.5%;
     margin-left: 5%;
   }
   .header .social-icons {
@@ -2572,7 +2572,6 @@ hr.large {
     border-bottom: 1px solid #f7f7f7;
   }
   #nav ul li a:hover {
-    color: #404c73;
     border-bottom: 1px solid #de1f2c;
     text-decoration: none;
     transition: border-bottom .3s ease-in;
